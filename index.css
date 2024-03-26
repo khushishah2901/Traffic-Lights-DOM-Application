@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/blur\ trafic\ light.jpg");
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+    
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    
+    
+}
+.btn1{
+    padding: 10px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: navy;
+    color: white;
+    border: none;
+}
+.lights{
+    background-color: rgb(5, 5, 65);
+    height: 290px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+}
+.box{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+   
+}
+.end{
+    font-size: 39px;
+    margin: 25px;
+    color: white;
+    font-weight: bold;
+}
